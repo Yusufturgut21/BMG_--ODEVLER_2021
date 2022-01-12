@@ -1,0 +1,18 @@
+# AD = YUSUF
+# SOYAD = TURGUT
+# NO = 21080410022
+listem = ["yusuf","eyyup","fatih","ahmet"]
+#listede bulunan t�m isimleri okuma ----->
+print(listem)
+#listenin uzunlu�u---->
+print(len(listem))
+#sadece listenin 2. ismi yazma---->
+print(listem[2])
+#listede son ismi silme (derstde g�sterdi�iniz y�ntemden farkl� ��zd�m bu da demek oluyor ki �aba sarf edip ara�t�rm���m +5 :) )----->
+del listem[3]
+print(listem)
+listem = ["yusuf","eyyup","fatih","ahmet"]
+#derste ��retti�iniz----->
+listem.pop(3)
+print(listem)
+
